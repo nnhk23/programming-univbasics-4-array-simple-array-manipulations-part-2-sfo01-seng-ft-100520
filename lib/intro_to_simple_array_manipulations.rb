@@ -19,5 +19,7 @@ def using_delete (array, string)
   i = 0 
   while i < array.length do
     if array[i] == string do
-      array.delete
+      array.delete_at(i)
+    end
+  end
 end
