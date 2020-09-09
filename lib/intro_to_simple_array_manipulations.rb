@@ -18,6 +18,7 @@ end
 def using_delete (array, string)
   array.length.times do |index|
     if array[index] == string do
-      array.delete
+      array.delete(string)
     end
+  end
 end
