@@ -14,3 +14,10 @@ end
 def using_flatten (array)
   array.flatten
 end
+
+def using_delete (array, string)
+  i = 0 
+  while i < array.length do
+    if array[i] == string do
+      
+end
