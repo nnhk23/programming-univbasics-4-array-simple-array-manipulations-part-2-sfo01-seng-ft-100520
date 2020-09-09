@@ -16,11 +16,8 @@ def using_flatten (array)
 end
 
 def using_delete (array, string)
-  i = 0 
-  while i < array.length do
-    if array[i] == string do
-      array.delete_at(i)
+  array.length.times do |index|
+    if array[index] == string do
+      array.delete
     end
-    i += 1 
-  end
 end
