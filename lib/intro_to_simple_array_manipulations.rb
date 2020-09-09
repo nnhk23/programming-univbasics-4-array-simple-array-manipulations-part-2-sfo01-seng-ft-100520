@@ -15,3 +15,10 @@ def using_flatten (array)
   array.flatten
 end
 
+def using_delete (array, string)
+  array.length.times do |index|
+    if (array[index].to_s == string) do
+      array.delete(string)
+    end
+  end
+end
